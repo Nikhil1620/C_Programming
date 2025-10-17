@@ -27,7 +27,7 @@ void DisplayFactors()
 }
 int main()
 {
-    int ivalue1 = 0,
+    int ivalue1 = 0;
 
     //printf("Enter the number : \n");
     //scanf("%d",&ivalue);
@@ -36,4 +36,5 @@ int main()
     
 
     return 0;
+
 }
