@@ -1,4 +1,4 @@
-// 1 2 3 4 5 
+// 1 * 2 * 3 * 4 * 5 
 
 #include<stdio.h>
 
@@ -8,7 +8,7 @@ void Display()
 
     for( iCnt<=5; iCnt++)
     {
-        printf("*\t");  
+        printf("%d\t*\t",iCnt);  
     }
 
     printf("\n");
@@ -19,4 +19,5 @@ int main()
     Display();
 
     return 0;
+
 }
