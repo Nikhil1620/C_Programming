@@ -27,7 +27,7 @@ int MultFact(int iNo)
         iNo = -iNo;
     }
 
-    for(iCnt = 1; iCnt <=c iNo/2; iCnt++)
+    for(iCnt = 1; iCnt <= iNo/2; iCnt++)
     {
         if(iNo % iCnt == 0)
         {
@@ -60,3 +60,4 @@ int main()
     return 0;
 
 }
+
