@@ -8,7 +8,7 @@
 
 /////////////////////////////////////////////////////////////////////////////
 //
-//  Function Name : DisplayEven
+//  Function Name : Display
 //  Description :   It is use to display factors in descending order
 //  Input :         Integer
 //  Output :        Integers
@@ -54,3 +54,4 @@ int main()
     return 0;
 
 }
+
