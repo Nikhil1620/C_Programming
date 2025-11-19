@@ -1,0 +1,39 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+typedef int * IPTR;
+
+int main()
+{
+    int iLength = 0;
+    int iCnt = 0;
+    IPTR iptr = NULL;
+
+    printf("Enter the number of elements : ");
+    scanf("%d", &iLength);
+
+    //Step 1: Allocate the memory
+    iptr = (IPTR)malloc(iLength * sizeof(int));
+    
+    if(iptr == NULL)      
+     {
+        printf("Unable to allocate the memoey\n");
+        return -1;
+    }
+
+    printf("Enter the values : \n");
+
+    for(iCnt = 0; iCnt < iLength; iCnt++)
+    {
+        scanf("%d",&iptr[iCnt]);
+    }
+
+    //Step 2 : Use the memory
+    //Call to the function which contains bussiness logic
+    //Fun(iPtr,iLength);
+
+    //Free the memory
+    free(iptr);
+
+    return 0;
+}
